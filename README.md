@@ -1,6 +1,9 @@
 # restful-api-restaurant
 RESTful API to manage restaurant written in Go with MongoDB as storage
 
+## ERD
+![ERD](https://github.com/alunparanggi/restful-api-restaurant/blob/master/documentation/ERD.png)
+
 ## List of endpoints:
 * GET    ```/users```
 * GET    ```/users/:user_id```    
