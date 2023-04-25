@@ -18,4 +18,10 @@ RESTful API to manage restaurant written in Go with MongoDB as storage
 * GET    ```/orderItems/:orderItem_id```
 * GET & PATCH   ```/orderItems-order/:order_id```         
 *  GET & POST    ```/invoices```                
-* GET & PATCH  ```/invoices/:invoice_id```                 
+* GET & PATCH  ```/invoices/:invoice_id```           
+
+## List of packages used in this project:
+* [gin](https://pkg.go.dev/github.com/gin-gonic/gin)
+* [jwt](https://pkg.go.dev/github.com/dgrijalva/jwt-go)
+* [validator](https://pkg.go.dev/github.com/go-playground/validator/v10)
+* [mongo driver](https://pkg.go.dev/go.mongodb.org/mongo-driver)
